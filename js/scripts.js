@@ -1,12 +1,12 @@
 $(document).ready(function() {
   $(".clickable").click(function() {
-    $("img").show();
+    $("img").fadeToggle();
   });
 });
 
 $(document).ready(function() {
   $(".clickable").click(function() {
-    $(".walrus-showing").toggle();
-    $(".walrus-hidden").toggle();
+    $("#walrus-showing").toggle();
+    $("#walrus-hidden").toggle();
   });
 });
